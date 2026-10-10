@@ -8,7 +8,7 @@ import moment from 'moment';
 
 const UpdateTab = ({ post }) => {
     return (
-        <Link className='cursor-pointer' to={`/blog/${post._id}`}>
+        <Link className='cursor-pointer' to={`/int-cov-front/blog/${post._id}`}>
             <div className='date-container'>
                 * {moment(post.createdAt).format('YY/MM/DD [at] LT')}
             </div>

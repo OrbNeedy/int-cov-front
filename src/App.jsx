@@ -7,6 +7,7 @@ import About from './pages/About';
 import Posts from './pages/Posts';
 import NavBar from './components/NavBar';
 import ExaminePost from './pages/ExaminePost';
+import FOF from './pages/FOF';
 
 // From this https://www.youtube.com/watch?v=7E6um7NGmeE&list=PLjwm_8O3suyOFd8LTFqgw9v7MqPNtgINA
 const App = () => {
@@ -29,12 +30,13 @@ const App = () => {
         <NavBar/>
         <div className='main-content'>{/**/}
           <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/blog' element={<Posts/>} />
-            <Route path='/blog/:id' element={<ExaminePost/>} />
-            <Route path='/gallery' element={<Gallery/>} />
-            <Route path='/creations' element={<Downloads/>} />
-            <Route path='/profile' element={<About/>} />
+            <Route path='/int-cov-front/' element={<Home/>} />
+            <Route path='/int-cov-front/blog' element={<Posts/>} />
+            <Route path='/int-cov-front/blog/:id' element={<ExaminePost/>} />
+            <Route path='/int-cov-front/gallery' element={<Gallery/>} />
+            <Route path='/int-cov-front/creations' element={<Downloads/>} />
+            <Route path='/int-cov-front/profile' element={<About/>} />
+            <Route path='*' element={<FOF/>} />
           </Routes>
         </div>
         <div className='main-footer'>
