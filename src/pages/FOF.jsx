@@ -11,7 +11,7 @@ const FOF = () => {
         </div>
         <div style={{ padding: '8px' }}>
           There is unfortunately no pages found under this direction, did you misinput?<br/>
-          Here, use <a href='/int-cov-front/' className='link-list'>this</a> link to go back to the index.
+          Here, use <a href='/' className='link-list'>this</a> link to go back to the index.
         </div>
       </div>
     </div>

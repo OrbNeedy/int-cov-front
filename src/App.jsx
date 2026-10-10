@@ -30,12 +30,12 @@ const App = () => {
         <NavBar/>
         <div className='main-content'>{/**/}
           <Routes>
-            <Route path='/int-cov-front/' element={<Home/>} />
-            <Route path='/int-cov-front/blog' element={<Posts/>} />
-            <Route path='/int-cov-front/blog/:id' element={<ExaminePost/>} />
-            <Route path='/int-cov-front/gallery' element={<Gallery/>} />
-            <Route path='/int-cov-front/creations' element={<Downloads/>} />
-            <Route path='/int-cov-front/profile' element={<About/>} />
+            <Route path='/' element={<Home/>} />
+            <Route path='/blog' element={<Posts/>} />
+            <Route path='/blog/:id' element={<ExaminePost/>} />
+            <Route path='/gallery' element={<Gallery/>} />
+            <Route path='/creations' element={<Downloads/>} />
+            <Route path='/profile' element={<About/>} />
             <Route path='*' element={<FOF/>} />
           </Routes>
         </div>

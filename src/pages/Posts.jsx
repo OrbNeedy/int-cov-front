@@ -22,7 +22,7 @@ const Posts = () => {
         {posts.map((value, key) => {
           return(
             <div className='content-container' key={key}>
-              <Link to={`/int-cov-front/blog/${value._id}`}>
+              <Link to={`/blog/${value._id}`}>
                 <div className='title-container'>
                   {value.title}
                 </div>

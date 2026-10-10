@@ -13,7 +13,7 @@ const About = () => {
         <div className='introductory-card-container'>
           <div className='introductory-card-image'>
             Reboot
-            <img alt='Reboot' src={assets.portrait}/>{/*'../src/assets/lion.png'*/}
+            <img alt='Reboot' src={assets.portrait}/>
           </div>
           <div className='introductory-card-quote'>
             What? I'm not telling you my real name~

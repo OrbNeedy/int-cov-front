@@ -4,17 +4,8 @@ import SectionHeader from '../components/SectionHeader';
 import './Common.css';
 
 const Downloads = () => {
-  const [ files, setFiles ] = useState([
-    {id: 0, name: 'Muchers', version: 'Release', path: 'Muchers.exe'}, 
-    {id: 1, name: 'Muchers', version: 'Release Fixed', path: 'Muchers.exe'}, 
-    {id: 2, name: 'Muchers', version: 'Demo', path: 'Muchers.zip'}, 
-    {id: 3, name: 'Utsuho', version: '0.1.2', path: 'Utsuho.exe'}, 
-    {id: 4, name: 'Utsuho', version: '0.1', path: 'Utsuho.zip'}
-  ]);
-  const [ categories, setCategories ] = useState([
-    {id: 0, title: 'Muchers', files: [0, 1, 2]}, 
-    {id: 1, title: 'Utsuho Advent', files: [3, 4]}
-  ]);
+  const [ files, setFiles ] = useState([]);
+  const [ categories, setCategories ] = useState([]);
 
   return (
     <div className='content-with-side'>
