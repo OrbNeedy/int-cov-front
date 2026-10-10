@@ -1,0 +1,18 @@
+div.side {
+    border: 2px solid white; 
+    height: fit-content;
+    background-color: #202020;
+    color: white;
+    width: 30%;
+}
+
+div.date-container {
+    padding-left: 2px;
+    color: #37A3B7;
+    font-weight: bold;
+}
+
+div.summary-container {
+    font-style: italic;
+    padding-left: 24px;
+}

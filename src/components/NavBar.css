@@ -1,0 +1,32 @@
+.header-display {
+  background-color: #202020;
+  background-image: url('../assets/SomeBackground.png');
+}
+
+.header-display h1 {
+  text-align: center;
+  color: white;
+  padding: 32px;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  background: #202020;
+  color: #f1f1f1;
+  display: flex;
+}
+
+.nav-bar-item {
+  flex-grow: 1;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.active {
+  background-color: #153B42;
+}

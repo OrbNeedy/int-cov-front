@@ -1,0 +1,159 @@
+div.content-with-side {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.content-container {
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #202020;
+    color: white;
+    padding: 6px;
+    margin: 2px;
+}
+
+div.title-container {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    color: #4557E1;
+    padding: 8px;
+    padding-bottom: 2px;
+}
+
+div.containerless-title {
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    color: #4557E1;
+    padding: 8px;
+    padding-bottom: 2px;
+}
+
+div.admin-container {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    color: #7257AA;
+    padding: 8px;
+    padding-bottom: 2px;
+}
+
+div.new-comment-container {
+    color: black;
+    width: 100%;
+    height: fit-content;
+}
+
+.new-comment-container form {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+input.text-input {
+    width: 20%;
+    background-color: #eaeaea;
+    border: 2px solid black;
+    margin: 4px;
+    border-radius: 5px;
+    color: black;
+}
+
+textarea.text-input-long {
+    background-color: #eaeaea;
+    border: 2px solid black;
+    margin: 4px;
+    border-radius: 5px;
+    min-height: 64px;
+    color: black;
+}
+
+input.button-input {
+    width: 12%;
+    background-color: #eaeaea;
+    border: 2px solid black;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+input.button-input:hover {
+    cursor: pointer;
+}
+
+div.gallery-container {
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #202020;
+    color: white;
+    margin: 2px;
+    height: fit-content;
+}
+
+div.gallery-title-container {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    color: #4557E1;
+    padding: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+div.image-container {
+    margin: 4px;
+    color: white;
+    padding: 2px;
+    border: 2px solid white;
+    height: 180px;
+    width: fit-content;
+    text-align: center;
+    display: inline-block;
+}
+
+.image-container:hover {
+    cursor: pointer;
+}
+
+.image-container img {
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+}
+
+div.download-container {
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #202020;
+    color: white;
+    margin: 2px;
+}
+
+.download-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.download-container td, th {
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+.download-container th {
+    border: 2px solid white;
+    border-top: 0px;
+}
+
+.right-border {
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.left-border {
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+
+td.mid-cel {
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}

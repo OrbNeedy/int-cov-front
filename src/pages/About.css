@@ -1,0 +1,33 @@
+div.introductory-card-container {
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #202020;
+    color: white;
+    margin: 2px;
+    height: fit-content;
+    width: 200px;
+}
+
+div.introductory-card-image {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    color: #4557E1;
+    padding: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 100%;
+}
+
+.introductory-card-image img {
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+}
+
+div.introductory-card-quote {
+    text-align: right;
+    padding: 4px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+}
