@@ -6,7 +6,7 @@ import SiteContextProvider from './context/SiteContext.jsx';
 import NavBar from './components/NavBar.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/int-cov-front'>
     <SiteContextProvider>
       <App/>
     </SiteContextProvider>
